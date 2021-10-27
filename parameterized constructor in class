@@ -1,0 +1,17 @@
+class constructor
+{
+      private int var;
+      public constructor(int num)
+      {
+             var=num;
+      }
+      public int getValue()
+      {
+              return var;
+      }
+      public static void main(String args[])
+      {
+              constructor myobj = new constructor();
+              System.out.println("value of var is: "+myobj.getValue());
+      }
+}
